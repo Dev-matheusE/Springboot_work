@@ -13,7 +13,7 @@ import com.matheus.course.entities.Category;
 import com.matheus.course.services.CategoryService;
 
 @RestController
-@RequestMapping(value="/Categorys")
+@RequestMapping(value="/categorys")
 public class CategoryResource {
 	
 	@Autowired

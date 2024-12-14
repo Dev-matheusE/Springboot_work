@@ -13,7 +13,7 @@ import com.matheus.course.entities.Order;
 import com.matheus.course.services.OrderService;
 
 @RestController
-@RequestMapping(value="/Orders")
+@RequestMapping(value="/orders")
 public class OrderResource {
 	
 	@Autowired

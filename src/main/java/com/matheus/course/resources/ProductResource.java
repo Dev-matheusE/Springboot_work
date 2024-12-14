@@ -13,7 +13,7 @@ import com.matheus.course.entities.Product;
 import com.matheus.course.services.ProductService;
 
 @RestController
-@RequestMapping(value="/Products")
+@RequestMapping(value="/products")
 public class ProductResource {
 	
 	@Autowired
